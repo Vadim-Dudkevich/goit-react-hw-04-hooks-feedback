@@ -1,0 +1,30 @@
+.feedbackList {
+  display: flex;
+}
+
+.feedbackItem:not(:last-child) {
+  margin-right: 5px;
+}
+
+.feedbackItem {
+  margin-top: 10px;
+}
+
+.feedbackBtn {
+  /* display: inline-block; */
+  padding: 20px auto;
+  width: 100px;
+  height: 30px;
+
+  background-color: #00669b;
+  color: #efece5;
+
+  text-transform: uppercase;
+  font-weight: 700;
+  font-size: 16px;
+
+  border: 0;
+  border-radius: 25px;
+
+  cursor: pointer;
+}

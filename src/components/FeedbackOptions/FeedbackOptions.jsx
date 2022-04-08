@@ -5,20 +5,22 @@ import shortid from 'shortid';
 
 export default function FeedbackOptions({ options, onLeaveFeedback }) {
   return (
-    <ul className={css.feedbackList}>
-      {options.map((option, index) => (
-        <li key={shortid.generate()} className={css.feedbackItem}>
-          <button
-            type="button"
-            name={option}
-            onClick={onLeaveFeedback}
-            className={css.feedbackBtn}
-          >
-            {option}
-          </button>
-        </li>
-      ))}
-    </ul>
+    <>
+      <ul className={css.feedbackList}>
+        {options.map((option, index) => (
+          <li key={shortid.generate()} className={css.feedbackItem}>
+            <button
+              type="button"
+              name={option}
+              onClick={onLeaveFeedback}
+              className={css.feedbackBtn}
+            >
+              {option}
+            </button>
+          </li>
+        ))}
+      </ul>
+    </>
   );
 }
 
