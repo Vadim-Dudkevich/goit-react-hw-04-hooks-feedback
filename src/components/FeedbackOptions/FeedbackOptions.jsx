@@ -1,6 +1,6 @@
 import React from 'react';
 import PropTypes from 'prop-types';
-import css from './FeedbackOptions.module';
+import css from './FeedbackOptions.module.css';
 import shortid from 'shortid';
 
 export default function FeedbackOptions({ options, onLeaveFeedback }) {
@@ -12,7 +12,7 @@ export default function FeedbackOptions({ options, onLeaveFeedback }) {
             type="button"
             name={option}
             onClick={onLeaveFeedback}
-            className={css.feedbackButton}
+            className={css.feedbackBtn}
           >
             {option}
           </button>
