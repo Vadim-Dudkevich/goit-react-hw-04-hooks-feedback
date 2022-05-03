@@ -1,22 +1,23 @@
 .feedbackList {
   display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .feedbackItem:not(:last-child) {
-  margin-right: 5px;
+  margin-right: 10px;
 }
 
 .feedbackItem {
-  margin-top: 10px;
+  margin-top: 20px;
 }
 
 .feedbackBtn {
-  /* display: inline-block; */
-  padding: 20px auto;
+  padding: 20px, auto;
   width: 100px;
-  height: 30px;
+  height: 40px;
 
-  background-color: #00669b;
+  background-color: #fbbd0d;
   color: #efece5;
 
   text-transform: uppercase;
@@ -24,7 +25,7 @@
   font-size: 16px;
 
   border: 0;
-  border-radius: 25px;
+  border-radius: 10px;
 
   cursor: pointer;
 }

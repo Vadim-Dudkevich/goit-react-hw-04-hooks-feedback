@@ -10,7 +10,7 @@ export default function Statistics({
   positivePercentage,
 }) {
   return (
-    <div>
+    <div className={css.statisticList}>
       <p className={css.statistic}>Good: {good}</p>
       <p className={css.statistic}>Neutral: {neutral}</p>
       <p className={css.statistic}>Bad: {bad}</p>

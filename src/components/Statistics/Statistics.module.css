@@ -1,0 +1,8 @@
+.statistic:not(:last-child) {
+  margin-bottom: 10px;
+  text-transform: uppercase;
+}
+
+.statistic {
+  font-weight: 500;
+}

@@ -1,0 +1,8 @@
+.feedback {
+  padding: 20px;
+  margin: 20px auto;
+  max-width: 350px;
+  background-color: #2d2c2e;
+  border-radius: 10px;
+  box-shadow: 4px 4px 10px 0 rgb(37 38 50 / 70%);
+}
