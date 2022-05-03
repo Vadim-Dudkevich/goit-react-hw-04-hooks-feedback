@@ -1,7 +1,7 @@
 import PropTypes from 'prop-types';
 
 export default function Notification({ message }) {
-  return <p>There is no feedback</p>;
+  return <p>{message}</p>;
 }
 
 Notification.propTypes = {

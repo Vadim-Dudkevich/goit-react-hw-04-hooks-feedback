@@ -28,4 +28,10 @@
   border-radius: 10px;
 
   cursor: pointer;
+  opacity: 0.9;
+}
+
+.feedbackBtn:hover,
+.feedbackBtn:focus {
+  opacity: 1;
 }
